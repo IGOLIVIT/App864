@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DesireModel" representedClassName="DesireModel" syncable="YES" codeGenerationType="class">
+        <attribute name="desAcc" optional="YES" attributeType="String"/>
+        <attribute name="desCom" optional="YES" attributeType="String"/>
+        <attribute name="desCost" optional="YES" attributeType="String"/>
+        <attribute name="desName" optional="YES" attributeType="String"/>
+        <attribute name="desPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NotesModel" representedClassName="NotesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="notName" optional="YES" attributeType="String"/>
+        <attribute name="notPhoto" optional="YES" attributeType="String"/>
+        <attribute name="notST" optional="YES" attributeType="String"/>
+        <attribute name="notTxt" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WishModel" representedClassName="WishModel" syncable="YES" codeGenerationType="class">
+        <attribute name="wCost" optional="YES" attributeType="String"/>
+        <attribute name="wName" optional="YES" attributeType="String"/>
+        <attribute name="wPhoto" optional="YES" attributeType="String"/>
+    </entity>
+</model>
