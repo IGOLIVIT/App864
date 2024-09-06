@@ -34,6 +34,10 @@
 		786410422C79C99800E2F176 /* NotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786410412C79C99800E2F176 /* NotDetail.swift */; };
 		786410442C79F9FA00E2F176 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786410432C79F9FA00E2F176 /* TabBar.swift */; };
 		78A13DFE2C81F75900E7D8BC /* WishDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13DFD2C81F75900E7D8BC /* WishDetail.swift */; };
+		78A13EA22C8A47EC00E7D8BC /* sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13EA12C8A47EC00E7D8BC /* sort.swift */; };
+		78A13EA42C8A47F800E7D8BC /* wyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13EA32C8A47F800E7D8BC /* wyu.swift */; };
+		78A13EA62C8A480000E7D8BC /* dsr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13EA52C8A480000E7D8BC /* dsr.swift */; };
+		78A13EA92C8A487E00E7D8BC /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 78A13EA82C8A487E00E7D8BC /* ApphudSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,9 @@
 		786410412C79C99800E2F176 /* NotDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetail.swift; sourceTree = "<group>"; };
 		786410432C79F9FA00E2F176 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		78A13DFD2C81F75900E7D8BC /* WishDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDetail.swift; sourceTree = "<group>"; };
+		78A13EA12C8A47EC00E7D8BC /* sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sort.swift; sourceTree = "<group>"; };
+		78A13EA32C8A47F800E7D8BC /* wyu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wyu.swift; sourceTree = "<group>"; };
+		78A13EA52C8A480000E7D8BC /* dsr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dsr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A13EA92C8A487E00E7D8BC /* ApphudSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +160,9 @@
 				786410102C78C43E00E2F176 /* CoreModel.xcdatamodeld */,
 				7864102F2C78C5B000E2F176 /* CoreDataStack.swift */,
 				786410312C78C5BE00E2F176 /* Array.swift */,
+				78A13EA12C8A47EC00E7D8BC /* sort.swift */,
+				78A13EA32C8A47F800E7D8BC /* wyu.swift */,
+				78A13EA52C8A480000E7D8BC /* dsr.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,6 +309,9 @@
 			dependencies = (
 			);
 			name = App864;
+			packageProductDependencies = (
+				78A13EA82C8A487E00E7D8BC /* ApphudSDK */,
+			);
 			productName = App864;
 			productReference = 78640FF32C78C11A00E2F176 /* App864.app */;
 			productType = "com.apple.product-type.application";
@@ -326,6 +340,9 @@
 				Base,
 			);
 			mainGroup = 78640FEA2C78C11A00E2F176;
+			packageReferences = (
+				78A13EA72C8A487E00E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+			);
 			productRefGroup = 78640FF42C78C11A00E2F176 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -368,9 +385,12 @@
 				786410182C78C45500E2F176 /* Reviews.swift in Sources */,
 				786410262C78C55300E2F176 /* SettingsView.swift in Sources */,
 				786410282C78C55A00E2F176 /* NotesView.swift in Sources */,
+				78A13EA22C8A47EC00E7D8BC /* sort.swift in Sources */,
+				78A13EA62C8A480000E7D8BC /* dsr.swift in Sources */,
 				7864102E2C78C57100E2F176 /* HomeViewModel.swift in Sources */,
 				7864101A2C78C4FB00E2F176 /* Not.swift in Sources */,
 				78A13DFE2C81F75900E7D8BC /* WishDetail.swift in Sources */,
+				78A13EA42C8A47F800E7D8BC /* wyu.swift in Sources */,
 				7864103C2C79363600E2F176 /* NotesViewModel.swift in Sources */,
 				786410422C79C99800E2F176 /* NotDetail.swift in Sources */,
 				786410162C78C44F00E2F176 /* U1.swift in Sources */,
@@ -508,7 +528,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App864/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Admiral Vision";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pōсkēt Ōptiōń Admiral Vision";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -524,7 +544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App864;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -547,7 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App864/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Admiral Vision";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pōсkēt Ōptiōń Admiral Vision";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -563,7 +583,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App864;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -597,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78A13EA72C8A487E00E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78A13EA82C8A487E00E7D8BC /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A13EA72C8A487E00E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		786410102C78C43E00E2F176 /* CoreModel.xcdatamodeld */ = {
